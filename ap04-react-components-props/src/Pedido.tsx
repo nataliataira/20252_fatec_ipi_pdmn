@@ -13,7 +13,7 @@ const Pedido = ( pedido : PedidoProps ) => {
             </div>
             <div className="card-body d-flex">
                 <div className='d-flex align-items-center'>
-                    <i className={`${pedido.icone}`} fa-2x></i>
+                    <i className={`${pedido.icone} fa-4x`}></i>
                 </div>
                 <div className='border flex-grow-1 ms-3 pt-2'>
                     <h4 className='text-center'>{pedido.titulo}</h4>
