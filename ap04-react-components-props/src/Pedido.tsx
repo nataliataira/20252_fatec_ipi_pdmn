@@ -1,16 +1,6 @@
-interface PedidoProps {
-    data: string;
-    icone: string;
-    titulo: string;
-    descricao: string;
-}
-
-const Pedido = ( pedido : PedidoProps ) => {
+const Pedido = (pedido : any) => {
     return (
         <div className="card">
-            <div className="card-header text-muted">
-                {pedido.data}
-            </div>
             <div className="card-body d-flex">
                 <div className='d-flex align-items-center'>
                     <i className={`${pedido.icone} fa-4x`}></i>
